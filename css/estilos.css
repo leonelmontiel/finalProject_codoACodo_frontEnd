@@ -1,0 +1,40 @@
+:root {
+    --bg-gray: rgb(51, 51, 51);
+    --bg-green-btn: rgb(130, 200, 0);
+    --bg-degBlue: linear-gradient(90deg, rgba(0,57,77,1) 0%, rgba(9,70,121,1) 50%, rgba(0,121,163,1) 100%);
+  }
+
+header{
+    background-color: var(--bg-gray);
+}
+
+.cover-box, .carousel, .carousel-inner, .carousel-item, .carousel-item img {
+    height: 100vh;
+}
+
+.cover-box img {
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.cover-content {
+    padding: 0 5%;
+}
+
+.btn-lang {
+    font-size: 75%;
+    cursor: auto !important;
+}
+
+.card-info {
+    background-color: var(--bg-gray);
+}
+
+button[type="submit"] {
+    background-color: var(--bg-green-btn);
+    color: white;
+}
+
+footer nav {
+    background: var(--bg-degBlue);
+}
