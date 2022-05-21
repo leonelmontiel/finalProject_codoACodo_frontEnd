@@ -30,11 +30,45 @@ header{
     background-color: var(--bg-gray);
 }
 
-button[type="submit"] {
+.btn-green {
     background-color: var(--bg-green-btn);
     color: white;
 }
 
 footer nav {
     background: var(--bg-degBlue);
+}
+
+/*----------------------------------- VENTA TICKETS --------------------------------*/
+
+#main_tickets {
+    margin-top: 100px;
+}
+
+#main_tickets article {
+    height: 275px;
+    width: 275px;
+}
+
+.final_price {
+    background-color: rgb(200, 235, 255);
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+    top: 10px;
+    left: 400px;
+	z-index: 100;
+	font-size: 16px;
+	/* opacity: 0; */
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
 }
